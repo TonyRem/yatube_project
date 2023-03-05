@@ -21,19 +21,25 @@ To use Yatube, you will need to have a web browser and an internet connection.
 
 To run the project locally, follow these steps:
 
-- Clone the repository using 
+- Clone the repository using
+
 ```
 git clone https://github.com/TonyRem/yatube_project.git
 ```
+
 - Create and activate venv
-- Install the required packages by running 
+- Install the required packages by running
+
 ```
-pip install -r requirements.txt.
+pip install -r requirements.txt
 ```
-- Run the development server using 
+
+- Run the development server using
+
 ```
-python manage.py runserver.
+python manage.py runserver
 ```
+
 ### Technologies Used
 
 Yatube is built using the following technologies:
