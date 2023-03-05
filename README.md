@@ -18,12 +18,22 @@ It is a platform for sharing ideas, thoughts, and opinions with a community of l
 ### Getting Started
 
 To use Yatube, you will need to have a web browser and an internet connection.
+
 To run the project locally, follow these steps:
 
-- Clone the repository using git clone *https://github.com/TonyRem/yatube_project.git*.
-- Install the required packages by running pip install -r requirements.txt.
-- Run the development server using python manage.py runserver.
-
+- Clone the repository using 
+```
+git clone https://github.com/TonyRem/yatube_project.git
+```
+- Create and activate venv
+- Install the required packages by running 
+```
+pip install -r requirements.txt.
+```
+- Run the development server using 
+```
+python manage.py runserver.
+```
 ### Technologies Used
 
 Yatube is built using the following technologies:
@@ -34,3 +44,7 @@ Yatube is built using the following technologies:
 ### License
 
 Yatube is licensed under the BSD 3-Clause License. See the LICENSE file for more information.
+
+### Author
+
+Remizov Anton
