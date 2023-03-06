@@ -17,10 +17,12 @@
     <p>
       {{ post.text }}
     </p>
-    <a href="{% url 'posts:group_list' %}">все записи группы</a>
+      {% if post.group %}   
+      <a href="{% url 'posts:group_list' post.group.slug %}" class="card-link" title="{{ post.group }}">все записи группы {{ post.group }}</a>
+      {% endif %} 
     {% if not forloop.last %}<hr>{% endif %}
-    {% endfor %} 
+    {% endfor %}   
   </article>
   <!-- под последним постом нет линии -->
-</div>  
+</div>
 {% endblock %}

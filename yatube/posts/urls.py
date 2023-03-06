@@ -9,6 +9,6 @@ urlpatterns = [
     # Home page
     path('', views.index, name='home'),
     # Groups pages
-    path('group_list.html/', views.group_posts, name='group_list')
+    path('group/<slug:slug>/', views.group_posts, name='group_list')
 
 ]
