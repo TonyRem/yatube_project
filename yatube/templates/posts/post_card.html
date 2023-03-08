@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    {% if post.group %}
+    <li>Группа: {{ post.group }}</li>
+    {% endif %}
+    <li>Автор: {{ post.author.get_full_name }}</li>
+    <li>Дата публикации: {{ post.pub_date|date:"d E Y" }}</li>
+  </ul>
+  <p>{{ post.text }}</p>
+  {% if post.group %} {% endif %}
+</div>
